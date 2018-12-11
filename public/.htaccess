@@ -1,0 +1,16 @@
+RewriteEngine On
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{HTTP_HOST}/public/$1 [R=301,L]
+
+
+#AuthType Basic
+#AuthName "My Protected Area"
+#AuthUserFile /kunden/450699_04109/webseiten/musiclessonsonair/public/.htpasswd
+#Require valid-user
+
+AuthType Basic
+AuthName "Protected Demo Area"
+AuthUserFile /kunden/450699_04109/webseiten/.htpasswd
+Require valid-user
+
+

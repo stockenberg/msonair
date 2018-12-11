@@ -1,0 +1,11 @@
+<testsuites>
+    <testsuite name="core">
+        <directory>core/</directory>
+    </testsuite>
+    <testsuite name="helper">
+        <directory>helper/</directory>
+    </testsuite>
+    <testsuite name="model">
+        <directory>model/</directory>
+    </testsuite>
+</testsuites>

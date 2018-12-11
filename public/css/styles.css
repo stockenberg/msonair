@@ -1,0 +1,1162 @@
+/*a, body, h1, h2, h3, h4, h5, h6, li, p, span {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    letter-spacing: 0.055em
+}*/
+#videoid, .hidden {
+    display: none
+}
+
+a, p {
+    font-size: 1.1rem
+}
+
+.clearfix:after{
+    content: ".";
+    display: block;
+    visibility: hidden;
+    line-height:0;
+    height:0;
+    width: 100%;
+}
+
+body {
+    background:#fff;
+    border-top: 3px solid #cc1212
+}
+
+.hidden {
+    display: none !important
+}
+
+.uppercase{
+    text-transform: uppercase;
+}
+
+.row .row {
+    margin: 10px
+}
+
+.fc-agenda-slots td div {
+    height: 80px !important
+}
+
+p.note {
+    font-size: 14px;
+    color: #cc1212
+}
+
+.clear {
+    clear: both
+}
+
+.note {
+    color: #cc1212;
+    text-decoration: none;
+    vertical-align: top
+}
+
+.columns {
+    padding: 0
+}
+
+#remotesVideos {
+    height: 75% !important;
+    width: 75% !important
+}
+
+.bookLesson, .lessonEnd {
+    float: left !important;
+    width: 35%
+}
+
+.bookLesson a {
+    float: left !important
+}
+
+.bookLesson {
+    margin-right: 30%
+}
+
+.bookLesson a {
+    width: 100% !important
+}
+
+
+
+h1, h3, h4, h5, h6 {
+    color: #cc1212
+}
+
+h4 {
+    color: #000
+}
+
+h7 {
+    color: #cc1212;
+    font-size: 14px;
+    line-height: 20px
+}
+
+a {
+    color: #cc1212
+}
+
+a:hover {
+    color: rgba(131, 0, 0, 1)
+}
+
+span {
+    font-size: 12px;
+    text-decoration: underline
+}
+
+.contentFirst .right span:hover, .contentSecond span:hover, span:hover {
+    color: #cc1212
+}
+
+.panel {
+    background-color: rgba(0, 0, 0, .05)
+}
+
+#contact, #register {
+    margin: 30px 10px
+}
+
+.panel .kontaktMsonair h3, .panel h3, .panel h4, .panel h5 {
+    color: #cc1212;
+    margin-bottom: 30px;
+    margin-top: 20px
+}
+
+.panel h5 {
+    margin: 10px 0
+}
+
+.panel .kontaktMsonair a:hover {
+    color: grey
+}
+
+.panel .kontaktMsonair .sozial img {
+    margin-right: 20px;
+    margin-top: 30px
+}
+
+.tabs .tab-title.active a {
+    background: rgba(0, 0, 0, .05)
+}
+
+.tabs .tab-title > a {
+    background: #fff
+}
+
+.tabs .tab-title.active a h5 {
+    color: #cc1212
+}
+
+.tabs .tab-title > a h5 {
+    color: grey
+}
+
+.tabs-content > .content.active {
+    border: 1px solid #cc1212
+}
+
+.tabs-content > .content {
+    padding: 30px
+}
+
+.tabs-content {
+    background-color: #fff
+}
+
+.tabs-content.vertical > .content.active {
+    border: none
+}
+
+.tabs-content.vertical.panel {
+    border: 1px solid #cc1212
+}
+
+.tabs.vertical .tab-title.active a {
+    color: #cc1212
+}
+
+.tabs.vertical a {
+    font-size: 12px
+}
+
+table {
+    border: none
+}
+
+table tr:nth-of-type(even) {
+    background: rgba(0, 0, 0, .05)
+}
+
+table p {
+    margin-bottom: 0
+}
+
+label, select {
+    color: rgba(0, 0, 0, .5)
+}
+
+label {
+    width: 80%
+}
+
+input#RegisterNewsletter, input#RegisterTermsOfUse {
+    vertical-align: middle
+}
+
+select {
+    background-color: #fff
+}
+
+.error-message {
+    padding: 8px;
+    margin: 5px 0;
+    color: #cc1212;
+    background-color: rgba(255, 255, 255, .5);
+    border: 1px solid rgba(0, 0, 0, .2)
+}
+
+.has-tip {
+    float: right;
+    color: #cc1212;
+    border-bottom: none;
+    text-decoration: none
+}
+
+
+.button, .button.alert, .button.expand, .top-bar-section ul li > a.button.alert {
+    background-color: #cc1212;
+    margin: 0
+}
+
+.button.alert:hover, .button:hover, .top-bar-section ul li > a.button.alert:hover {
+    background-color: rgba(131, 0, 0, 1)
+}
+
+.label.success {
+    background-color: #cc1212
+}
+
+.label.success:hover {
+    color: #fff;
+    background-color: rgba(131, 0, 0, 1)
+}
+
+.button.disable {
+    background-color: grey
+}
+
+.button.tiny {
+    margin-top: 40px;
+    display: block
+}
+
+button.expand.button.small {
+    margin-top: 30px
+}
+
+#RegisterChildsName {
+    display: none
+}
+
+@media only screen and (max-width: 64em) {
+    .btnMarginBottom10 {
+        margin-bottom: 10px
+    }
+}
+
+.contain-to-grid {
+    background-color: #fff;
+    height: 90px
+}
+
+.logo img {
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    width: 90%
+}
+
+dl.right.sub-nav {
+    margin-bottom: 0;
+    margin-top: 9px
+}
+
+.top-bar, .top-bar-section ul li {
+    background-color: #fff
+}
+
+.top-bar-section ul li > a {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button) {
+    background-color: #fff;
+    color: #222;
+    padding: 0 10px
+}
+
+.top-bar-section .dropdown li:not(.has-form) a:not(.button):hover, .top-bar-section li.active:not(.has-form) a:not(.button):hover, .top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #cc1212;
+    color: #fff
+}
+
+.top-bar-section .dropdown li:not(.has-form) a:not(.button) {
+    color: #fff
+}
+
+.top-bar-section .has-dropdown > a::after {
+    border-top-style: ridge;
+    border-color: rgba(255, 255, 255, .9) transparent transparent;
+    margin-top: -4.5px
+}
+
+.sub-nav dd a {
+    font-weight: 400;
+    font-size: 18px
+}
+
+#flashMessage {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #cc1212;
+    color: #fff;
+    z-index: 5000;
+    text-align: center;
+    padding: 10px 20px
+}
+button.active{
+    background: #ffd530;
+}
+
+.sub-nav dd a.active, .sub-nav dd a:hover {
+    color: #cc1212
+}
+button.done{
+    background: #36a641;
+}
+#login {
+    text-align: center
+}
+
+#login img {
+    margin-bottom: 30px;
+    width: 250px
+}
+.sub-nav dd a{
+    color: #222;
+}
+
+.main {
+    position: relative
+}
+
+.mainHeaderImg {
+    width: 100%;
+    background-size: cover;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+    padding: 0;
+    background: #222;
+}
+
+#mainContent {
+    margin-top: 50px;
+    margin-bottom: 30px;
+    padding-right: 20px
+}
+
+#mainContent h3 {
+    margin-bottom: 30px
+}
+
+.main .mainHeader .mainHeaderTeaser, .main .mainHeaderImg .mainHeaderTeaser {
+    height: auto;
+    width: 100%;
+    /* text-align: center; */
+    padding: 30px 20px 30px 20px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
+.headline{
+    border: thin solid #cc1212;
+    background: rgba(204,18,18,.7);
+}
+.mainHeaderTeaser h1{
+    color: white !important;
+}
+
+@media only screen and (max-width: 40em) {
+    .main .mainHeader .mainHeaderTeaser, .main .mainHeaderImg .mainHeaderTeaser {
+        height: auto;
+        padding: 10px 20px;
+        position: relative;
+        left: 0;
+        bottom: 0;
+        background-color: rgba(242, 242, 242, .9)
+    }
+}
+
+#mainContent .hardware {
+    margin-top: 50px
+}
+
+.mainHeaderTeaser h1 {
+    font-size: 28px
+}
+
+.mainInstrumente.row {
+    margin-bottom: 50px
+}
+
+.mainInstrumente figure figcaption {
+    width: 195px;
+    max-width: 100%;
+    height: 100px;
+    position: absolute;
+    bottom: 0;
+    padding-top: 40px;
+    background-color: rgba(255, 255, 255, .7);
+    visibility: visible;
+    text-align: left
+}
+
+.mainInstrumente figure:hover figcaption {
+    visibility: hidden
+}
+
+@media only screen and (max-width: 30em) {
+    figure.gitar.large-3, figure.keyboard.large-3, figure.saxophon.large-3, figure.sing.large-3, figure.trumpet.large-3 {
+        width: 195px;
+        max-width: 20%;
+        height: 250px;
+        margin: 0;
+        padding: 5px;
+        background-size: contain;
+        box-sizing: border-box;
+        background-repeat: no-repeat
+    }
+}
+
+@media only screen and (min-width: 30.063em) and (max-width: 40em) {
+    figure.gitar.large-3, figure.keyboard.large-3, figure.saxophon.large-3, figure.sing.large-3, figure.trumpet.large-3 {
+        width: 195px;
+        max-width: 20%;
+        height: 300px;
+        margin: 0;
+        padding: 5px;
+        background-size: contain;
+        box-sizing: border-box;
+        background-repeat: no-repeat
+    }
+}
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) {
+    figure.gitar.large-3, figure.keyboard.large-3, figure.saxophon.large-3, figure.sing.large-3, figure.trumpet.large-3 {
+        width: 195px;
+        max-width: 20%;
+        height: 350px;
+        margin: 0;
+        padding: 5px;
+        background-size: contain;
+        box-sizing: border-box;
+        background-repeat: no-repeat
+    }
+}
+
+@media only screen and (min-width: 64.063em) {
+    figure.gitar.large-3, figure.keyboard.large-3, figure.saxophon.large-3, figure.sing.large-3, figure.trumpet.large-3 {
+        width: 195px;
+        max-width: 20%;
+        height: 400px;
+        margin: 0;
+        padding: 5px;
+        background-size: contain;
+        box-sizing: border-box;
+        background-repeat: no-repeat
+    }
+}
+
+figure.trumpet.large-3 {
+    background-image: url(../img/instrumente/trumpet_weis.jpg)
+}
+
+figure.saxophon.large-3 {
+    background-image: url(../img/instrumente/saxophon_weis.jpg)
+}
+
+figure.sing.large-3 {
+    background-image: url(../img/instrumente/sing_weis.jpg)
+}
+
+figure.gitar.large-3 {
+    background-image: url(../img/instrumente/gitarre_weis.jpg)
+}
+
+figure.keyboard.large-3 {
+    background-image: url(../img/instrumente/klavier_kombi_weis.jpg)
+}
+
+figure.trumpet.large-3:hover {
+    background-image: url(../img/instrumente/trumpet.jpg)
+}
+
+figure.saxophon.large-3:hover {
+    background-image: url(../img/instrumente/saxophon.jpg)
+}
+
+figure.sing.large-3:hover {
+    background-image: url(../img/instrumente/sing.jpg)
+}
+
+figure.gitar.large-3:hover {
+    background-image: url(../img/instrumente/gitarre.jpg)
+}
+
+figure.keyboard.large-3:hover {
+    background-image: url(../img/instrumente/klavier_kombi.jpg)
+}
+
+#mainContentInstrumente {
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+#mainContentInstrumente .row .content p, #mainContentInstrumente .row .pic img {
+    padding: 20px
+}
+
+#mainContentInstrumente .row .content a {
+    margin-bottom: 20px;
+    margin-right: 20px
+}
+
+#mainContentInstrumente .row {
+    background-color: rgba(0, 0, 0, .05);
+    border: 1px solid rgba(0, 0, 0, .05);
+    margin-bottom: 30px
+}
+
+#mainContentInstrumente .accordion {
+    margin-top: 30px;
+    margin-bottom: 30px
+}
+
+#content #mainContent {
+    width: 100%
+}
+
+.contentFirst .accordion .columns {
+    padding: 10px
+}
+
+#content .contentFirst {
+    background-color: #fff;
+    margin-bottom: 30px
+}
+
+.contentFirst .left ul {
+    list-style: none;
+    margin-left: 0;
+    margin-top: 30px;
+    margin-bottom: 50px
+}
+.contentFirst .left ul li p{
+    padding-left: 30px;
+}
+.contentFirst .right h4{
+    color: #cc1212;
+}
+.padding_left{
+    margin-left: 0px;
+    /* 	margin-top: 50px; */
+    margin-bottom: 20px;
+}
+
+.contentFirst .left ul i {
+    margin-left: -30px;
+    width: 30px;
+    font-size: 0.8em;
+    margin-top: 5px;
+    display: inline-block;
+
+}
+
+.contentFirst .left ul li {
+    margin-bottom: -10px !important
+}
+
+.contentFirst .left h5, .contentFirst .right h5 {
+    margin-bottom: 20px
+}
+.contentFirst .left blockquote{
+    margin-top: 50px;
+}
+
+#mainContent figure, .contentFirst .right, .contentFirst .rightTwo {
+    padding: 15px;
+    /*     border: 1px solid #cc1212; */
+    margin-right: 0;
+    /*box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);*/
+    border: thin solid #bbb;
+}
+
+.contentFirst .right img {
+    margin-bottom: 20px
+}
+
+.contentSecond span, .lastContent span {
+    font-size: 14px;
+    text-decoration: underline
+}
+
+.contentSecond h4 a {
+    font-size: 1.4375rem
+}
+
+.contentSecond figure img, .lastContent figure img {
+    border: 1px solid #d8d8d8
+}
+
+.contentThird {
+    text-align: center;
+    padding: 50px 150px 80px;
+    margin-top: 30px
+}
+
+.contentThird h3, .contentThird p {
+    margin-bottom: 40px
+}
+
+.lastContent {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px
+}
+
+figure {
+    position: relative
+}
+
+.lastContent figure figcaption {
+    width: 100%;
+    max-width: 100%;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, .7)
+}
+
+.lastContent span {
+    color: #000
+}
+
+#agb p, #datenschutz p, #imprint p {
+    text-align: justify;
+    font-weight: 300
+}
+
+#footer {
+    width: 100%;
+    background-color: #222;
+    height: 90px;
+    padding: 0 50px;
+    margin-top: 30px
+}
+
+#footer a {
+    color: #fff;
+    font-weight: 300;
+    font-size: 16px;
+    margin: 0px 5px;
+}
+
+#footer a:hover {
+    color: grey
+}
+
+#footer .left, #footer .middle {
+    color: #fff;
+    margin-top: 40px
+}
+
+#FAQ .accordion-navigation {
+    border-bottom: 1px solid grey
+}
+
+#FAQ .accordion dd > a {
+    background: #fff
+}
+
+#panel1 a {
+    color: #cc1212
+}
+
+#panel1 a:hover {
+    color: rgba(131, 0, 0, 1)
+}
+
+#FAQ .accordion dd > a:hover {
+    background: #fff
+}
+
+#FAQ .accordion dd > a h5:hover {
+    color: rgba(131, 0, 0, 1)
+}
+
+.metronom {
+    margin-top: 40px
+}
+
+.example {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 12px;
+    margin: 0 auto
+}
+
+.status {
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    overflow-y: auto
+}
+
+.statusline {
+    font-size: 10px;
+    background-color: #E0E0E0;
+    margin: 3px 0;
+    padding: 2px
+}
+
+.metr_input {
+    width: 40px;
+    margin-right: 10px;
+    text-align: center
+}
+
+#count {
+    width: 50px;
+    text-align: right
+}
+
+#footer .middle {
+    text-align: center
+}
+
+#footer .middle a {
+    font-size: 12px
+}
+
+#footer .right {
+    text-align: right;
+    margin-top: 30px
+}
+
+#footer .right a img {
+    width: 40px;
+    margin-left: 15px
+}
+
+.accordion dd > a {
+    background-color: #fff;
+    border-bottom: 1px solid red
+}
+
+.accordion dd > a:hover {
+    background-color: rgba(0, 0, 0, .03)
+}
+
+#firefoxMac, #firefoxWindows {
+    background-attachment: fixed;
+    height: 1000px;
+    overflow: scroll
+}
+
+.welcome h5 {
+    margin-top: 50px
+}
+
+.advanced h3, .beginner h3 {
+    margin: 20px 0
+}
+
+.advanced .button.alert, .beginner .button.alert {
+    margin-bottom: 20px
+}
+
+.advanced .pricing-table .title, .beginner .pricing-table .title {
+    color: white;
+}
+
+#studentSelect {
+    margin-top: 20px
+}
+
+#metronome_container {
+    margin-left: 65px
+}
+
+#startstop {
+    text-transform: uppercase
+}
+
+#count, #inputs #ticks, #inputs .tick {
+    display: none
+}
+
+@media only screen and (min-width: 40.063em) {
+    .contentFirst .left {
+        padding-right: 30px
+    }
+    .gutschein {
+        margin-right: -20px !important;
+    }
+}
+
+@media only screen and (max-width: 40em) {
+    .mainHeaderTeaser h1 {
+        font-size: 22px;}
+    #mainContent{margin-top: 0px; padding-right: 0px;}
+    #footer .right a img {
+        width: 20px
+    }
+    #footer{ text-align: center; padding-top: 10px;}
+    blockquote{margin-bottom: 50px;}
+    .gutschein img{width: 100%;}
+
+    #footer .left, #footer .middle {
+        margin-top: 5px
+    }
+    #footer .right{text-align: center; padding-bottom: 20px;}
+    #footer .middle a, #footer a {
+        font-size: 10px;
+        margin: 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 29.938em) {
+    .hide30 {
+        visibility: visible;
+        display: block;
+        width: 100%;
+        height: 100%
+    }
+
+    .show30 {
+        visibility: hidden;
+        display: none;
+        width: 0;
+        height: 0
+    }
+}
+
+@media only screen and (min-width: 30em) {
+    .hide30 {
+        visibility: hidden;
+        display: none;
+        width: 0;
+        height: 0
+    }
+
+    .show30 {
+        visibility: visible;
+        display: block;
+        width: 100%;
+        height: 100%
+    }
+}
+
+blockquote {
+    line-height: 20pt;
+    /*border-left: 1px solid #cc1212;*/
+    border: thin solid #bbb;
+    background: #fff;
+    padding: 40px;
+    color: black;
+}
+
+.teaser{
+    background: #cc1212;
+    padding: 30px;
+    color: white;
+    border: thin solid #dd2323;
+    box-shadow: 0px 3px 10px 0px rgba(0,0,0,.5);
+}
+.front-list{
+    padding: 20px;
+    margin-top: 0px !important;
+}
+.front-list li{
+    display: inline-block;
+    margin: 10px 0px;
+    width: 100%;
+    font-size: 18px !important;
+}
+.front-list li:first-child{
+    margin-top: 0px;
+}
+.front-list h4{
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #222;
+}
+.teaser h4{
+    color: white;
+
+}
+.front h4{
+    font-size: 24px;
+}
+.box{
+    padding: 20px;
+    background: white;
+}
+.calltoaction{
+    margin-top: -17px !important;
+    display: inline-block;
+    border: none !important;
+    text-align: left;
+    font-weight: bold !important;
+    border-bottom: thin solid white;
+}
+a.calltoaction + hr{
+    border-top: thin solid white;
+    margin: 0;
+    padding: 10px 0px 20px 0;
+}
+#localVideo{
+    border: thin solid red;
+    height: auto;
+}
+
+#remoteVideos video{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: auto;
+
+}
+#remoteVideos{
+    height: 620px;
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #cc1212;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #cc1212;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+.videotable td+td+td, .videotable th+th+th{
+    text-align: right;
+}
+button:active{
+    background: inherit;
+}
+
+
+.mobileNav {
+    width: 100%;
+    text-align: center;
+    display: none;
+    border-bottom: thin solid black;
+    margin-bottom: 10px;
+}
+
+.mobileNav p{
+    color: #333;
+    padding: 10px;
+    padding-bottom: 0px;
+
+    cursor: pointer;
+    font-weight: bold;
+
+
+}
+#content{
+    padding: 10px;
+}
+@media screen and (max-width: 650px){
+    #remoteVideos{
+        height: 340px;
+    }
+}
+
+@media screen and (max-width: 930px){
+
+    #backend_nav{
+        display: none;
+    }
+
+    .mobileNav{
+        display: block;
+    }
+
+    #backend_nav dd{
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    #backend_nav dd a{
+        padding: 15px 20%;
+    }
+}
+
+@media screen and (min-width: 930px){
+
+    #backend_nav{
+        display: block;
+    }
+
+    .mobileNav{
+        display: none;
+    }
+
+    #backend_nav dd{
+        display: inline-block;
+        text-align: left;
+    }
+
+}
+
+.count select{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 5%;
+    border: thin solid #cc1212;
+    color: #cc1212;
+}
+
+.advancedPackage ul{
+    opacity: 0.5;
+    transition: opacity 1s;
+}
+
+.advancedPackage{
+    display: none;
+}
+
+.advancedPackage.profile{
+    display: block;
+}
+
+.advancedPackage ul:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.advancedPackage ul.selected{
+    border: thin solid #cc1212;
+    opacity: 1;
+    -webkit-box-shadow: 0px 12px 10px -8px rgba(0,0,0,0.39);
+    -moz-box-shadow: 0px 12px 10px -8px rgba(0,0,0,0.39);
+    box-shadow: 0px 12px 10px -8px rgba(0,0,0,0.39);
+}
+
+.paymentform{
+    column-count: 2;
+}
+.paymentform p{
+    background: white;
+    border: thin solid #cc1212;
+    transition: opacity 1s;
+    padding-left: 20px;
+}
+
+.paymentform p label{
+    padding: 20px;
+    color: #cc1212;
+}
+
+.orderOverview{
+    list-style-type: none;
+}
+
+.orderOverview li{
+    background: white;
+    border: thin solid #1c8a2c;
+    color: #1c8a2c;
+    padding: 10px;
+    margin: 0px 5px 5px 0px;
+}
+
+li.image img{
+    height: 200px;
+    width: auto;
+}
+
+.opacityhidden{
+    visibility: hidden;
+    position: absolute;
+}
+
+#coupon h3{
+    margin: 48px 0px 30px 0 !important;
+}
+
+.button[disabled='disabled']{
+    background: #cc1212;
+}
